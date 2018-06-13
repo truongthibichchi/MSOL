@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E91CD44-55E7-4A18-BB1B-F16063A4ACA0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSOL</RootNamespace>
+    <AssemblyName>MSOL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\AlbumDAO.cs" />
+    <Compile Include="DAO\CTAlbumDAO.cs" />
+    <Compile Include="DAO\LichPhanCongDAO.cs" />
+    <Compile Include="DAO\QuyDinhDAO.cs" />
+    <Compile Include="DTO\LichPhanCong.cs" />
+    <Compile Include="FORMS\HOADON\CHONGOICHUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\HOADON\CHONGOICHUP.Designer.cs">
+      <DependentUpon>CHONGOICHUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\CTHDGoiChupDAO.cs" />
+    <Compile Include="DAO\CTHDLePhucDAO.cs" />
+    <Compile Include="DAO\GoiChupDAO.cs" />
+    <Compile Include="DAO\HoaDonDAO.cs" />
+    <Compile Include="DAO\LoaiGoiChupDAO.cs" />
+    <Compile Include="DTO\Album.cs" />
+    <Compile Include="DTO\CTAlbum.cs" />
+    <Compile Include="DTO\CTHDGoiChup.cs" />
+    <Compile Include="DTO\CTHDLePhuc.cs" />
+    <Compile Include="DTO\GoiChup.cs" />
+    <Compile Include="DTO\HoaDon.cs" />
+    <Compile Include="DTO\LoaiGoiChup.cs" />
+    <Compile Include="FORMS\HOADON\CHONLEPHUC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\HOADON\CHONLEPHUC.Designer.cs">
+      <DependentUpon>CHONLEPHUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\HOADON\FORM_CTHD_ALBUM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\HOADON\FORM_CTHD_ALBUM.Designer.cs">
+      <DependentUpon>FORM_CTHD_ALBUM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\HOADON\FORM_CTHD_GOICHUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\HOADON\FORM_CTHD_GOICHUP.Designer.cs">
+      <DependentUpon>FORM_CTHD_GOICHUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\HOADON\FORM_CTHD_LEPHUC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\HOADON\FORM_CTHD_LEPHUC.Designer.cs">
+      <DependentUpon>FORM_CTHD_LEPHUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\DANGNHAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\DANGNHAP.Designer.cs">
+      <DependentUpon>DANGNHAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\TAIKHOAN\DANHSACHTAIKHOAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\TAIKHOAN\DANHSACHTAIKHOAN.Designer.cs">
+      <DependentUpon>DANHSACHTAIKHOAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\ChucVuDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAO\LePhucDAO.cs" />
+    <Compile Include="DAO\LoaiLePhucDAO.cs" />
+    <Compile Include="DAO\NhanVienDAO.cs" />
+    <Compile Include="DAO\TaiKhoanDAO.cs" />
+    <Compile Include="DAO\TinhTrangLePhucDAO.cs" />
+    <Compile Include="FORMS\DOANHTHU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMS\DOANHTHU.Designer.cs">
+      <DependentUpon>DOANHTHU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\ChucVu.cs" />
+    <Compile Include="DTO\LePhuc.cs" />
+    <Compile Include="DTO\LoaiLePhuc.cs" />
+    <Compile Include="DTO\NhanVien.cs" />
+    <Compile Include="DTO\TaiKhoan.cs" />
+    <Compile Include="FORMS\ALBUM\ALBUM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMS\ALBUM\ALBUM.Designer.cs">
+      <DependentUpon>ALBUM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\TinhTrangLePhuc.cs" />
+    <Compile Include="FORMS\HOADON\HOADON.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMS\HOADON\HOADON.Designer.cs">
+      <DependentUpon>HOADON.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\LEPHUC\LEPHUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMS\LEPHUC\LEPHUC.Designer.cs">
+      <DependentUpon>LEPHUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\LIENHE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMS\LIENHE.Designer.cs">
+      <DependentUpon>LIENHE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\MANHINHCHINH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\MANHINHCHINH.Designer.cs">
+      <DependentUpon>MANHINHCHINH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\NHANVIEN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMS\NHANVIEN.Designer.cs">
+      <DependentUpon>NHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FORMS\TAIKHOAN\THONGTINTAIKHOAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\TAIKHOAN\THONGTINTAIKHOAN.Designer.cs">
+      <DependentUpon>THONGTINTAIKHOAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\HOADON\QUYDINH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\HOADON\QUYDINH.Designer.cs">
+      <DependentUpon>QUYDINH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UTILITIES\ComboBoxItem.cs" />
+    <Compile Include="FORMS\ALBUM\CAIDATGOICHUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ALBUM\CAIDATGOICHUP.Designer.cs">
+      <DependentUpon>CAIDATGOICHUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UTILITIES\ControlUtils.cs" />
+    <Compile Include="FORMS\LEPHUC\XEMHOADONLEPHUC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\LEPHUC\XEMHOADONLEPHUC.Designer.cs">
+      <DependentUpon>XEMHOADONLEPHUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ALBUM\XEMCHITIETALBUM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ALBUM\XEMCHITIETALBUM.Designer.cs">
+      <DependentUpon>XEMCHITIETALBUM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ALBUM\XEMLICHPHANCONG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ALBUM\XEMLICHPHANCONG.Designer.cs">
+      <DependentUpon>XEMLICHPHANCONG.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FORMS\HOADON\CHONGOICHUP.resx">
+      <DependentUpon>CHONGOICHUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\HOADON\CHONLEPHUC.resx">
+      <DependentUpon>CHONLEPHUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\HOADON\FORM_CTHD_ALBUM.resx">
+      <DependentUpon>FORM_CTHD_ALBUM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\HOADON\FORM_CTHD_GOICHUP.resx">
+      <DependentUpon>FORM_CTHD_GOICHUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\HOADON\FORM_CTHD_LEPHUC.resx">
+      <DependentUpon>FORM_CTHD_LEPHUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\DANGNHAP.resx">
+      <DependentUpon>DANGNHAP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\TAIKHOAN\DANHSACHTAIKHOAN.resx">
+      <DependentUpon>DANHSACHTAIKHOAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\DOANHTHU.resx">
+      <DependentUpon>DOANHTHU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ALBUM\ALBUM.resx">
+      <DependentUpon>ALBUM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\HOADON\HOADON.resx">
+      <DependentUpon>HOADON.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\LEPHUC\LEPHUC.resx">
+      <DependentUpon>LEPHUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\LIENHE.resx">
+      <DependentUpon>LIENHE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\MANHINHCHINH.resx">
+      <DependentUpon>MANHINHCHINH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\NHANVIEN.resx">
+      <DependentUpon>NHANVIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FORMS\TAIKHOAN\THONGTINTAIKHOAN.resx">
+      <DependentUpon>THONGTINTAIKHOAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ALBUM\CAIDATGOICHUP.resx">
+      <DependentUpon>CAIDATGOICHUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\LEPHUC\XEMHOADONLEPHUC.resx">
+      <DependentUpon>XEMHOADONLEPHUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ALBUM\XEMCHITIETALBUM.resx">
+      <DependentUpon>XEMCHITIETALBUM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ALBUM\XEMLICHPHANCONG.resx">
+      <DependentUpon>XEMLICHPHANCONG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\HOADON\QUYDINH.resx">
+      <DependentUpon>QUYDINH.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoadon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lephuc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goichup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inanh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhanvien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thongke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thongtin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khuyenmai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\058.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\album-maker-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cornieicons-android-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\properties-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my-profile-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1495434944_sign-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1495523182_file-time-plan-construction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-tips-make-a-plan-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cara-mengunggah-gambar-pada-email.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload-25068__340.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1305373673.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27afbefb3083f4b89dc05ed8c6115baa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13053736731.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green_grass_background_by_soulart2012-d5fu6w4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saving.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milker-X-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\address.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F_icon.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\il_fullxfull.268991940.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

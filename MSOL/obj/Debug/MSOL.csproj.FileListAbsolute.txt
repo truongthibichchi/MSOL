@@ -1,0 +1,165 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\MSOL\bin\Debug\MSOL.exe.config
+C:\Users\Administrator\Downloads\MSOL\MSOL\bin\Debug\MSOL.exe.config
+C:\Users\Administrator\Downloads\MSOL\MSOL\bin\Debug\MSOL.exe
+C:\Users\Administrator\Downloads\MSOL\MSOL\bin\Debug\MSOL.pdb
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.DANGNHAP.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.DANHSACHTAIKHOAN.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.DOANHTHU.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.GOICHUP.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.HOADON.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.LEPHUC.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.LIENHE.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.MANHINHCHINH.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.NHANVIEN.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.Properties.Resources.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.THONGTINTAIKHOAN.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.csproj.GenerateResource.Cache
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.exe
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.pdb
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.XEMhoadonGoichup.resources
+C:\Users\Administrator\Downloads\MSOL\MSOL\obj\Debug\MSOL.ALBUM.resources
+E:\MSOL\MSOL\bin\Debug\MSOL.exe.config
+E:\MSOL\MSOL\obj\Debug\MSOL.exe
+E:\MSOL\MSOL\obj\Debug\MSOL.pdb
+E:\MSOL\MSOL\bin\Debug\MSOL.exe
+E:\MSOL\MSOL\bin\Debug\MSOL.pdb
+E:\MSOL\MSOL\obj\Debug\MSOL.DANGNHAP.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.DANHSACHTAIKHOAN.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.DOANHTHU.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.HOADON.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.LEPHUC.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.LIENHE.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.MANHINHCHINH.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.NHANVIEN.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.Properties.Resources.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.THONGTINTAIKHOAN.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.csproj.GenerateResource.Cache
+E:\MSOL\MSOL\obj\Debug\MSOL.KHUYENMAI.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.CAIDATgoichup.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.ALBUM.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.XEMhoadonLephuc.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.XEMCHITIETALBUM.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_GOICHUP.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_LEPHUC.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.FORMS.CHONLEPHUC.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.CHONGOICHUP.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_ALBUM.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.XEMLICHPHANCONG.resources
+E:\MSOL\MSOL\obj\Debug\MSOL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\bin\Debug\MSOL.exe.config
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.exe
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.pdb
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\bin\Debug\MSOL.exe
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\bin\Debug\MSOL.pdb
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.CHONGOICHUP.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.FORMS.CHONLEPHUC.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_ALBUM.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_GOICHUP.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_LEPHUC.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.DANGNHAP.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.DANHSACHTAIKHOAN.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.DOANHTHU.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.ALBUM.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.HOADON.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.KHUYENMAI.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.LEPHUC.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.LIENHE.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.MANHINHCHINH.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.NHANVIEN.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.Properties.Resources.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.THONGTINTAIKHOAN.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.CAIDATGOICHUP.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.XEMHOADONLEPHUC.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.XEMCHITIETALBUM.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.XEMLICHPHANCONG.resources
+C:\Users\Administrator\Downloads\UPDATE171\UPDATE17\MSOL\MSOL\obj\Debug\MSOL.csproj.GenerateResource.Cache
+D:\MSOL\MSOL\MSOL\bin\Debug\MSOL.exe.config
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.exe
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.pdb
+D:\MSOL\MSOL\MSOL\bin\Debug\MSOL.exe
+D:\MSOL\MSOL\MSOL\bin\Debug\MSOL.pdb
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.csprojResolveAssemblyReference.cache
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.CHONGOICHUP.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.FORMS.CHONLEPHUC.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_ALBUM.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_GOICHUP.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_LEPHUC.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.DANGNHAP.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.DANHSACHTAIKHOAN.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.DOANHTHU.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.ALBUM.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.HOADON.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.KHUYENMAI.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.LEPHUC.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.LIENHE.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.MANHINHCHINH.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.NHANVIEN.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.Properties.Resources.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.THONGTINTAIKHOAN.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.CAIDATGOICHUP.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.XEMHOADONLEPHUC.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.XEMCHITIETALBUM.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.XEMLICHPHANCONG.resources
+D:\MSOL\MSOL\MSOL\obj\Debug\MSOL.csproj.GenerateResource.Cache
+E:\MI RI KI\MSOL\MSOL\bin\Debug\MSOL.exe.config
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.exe
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.pdb
+E:\MI RI KI\MSOL\MSOL\bin\Debug\MSOL.exe
+E:\MI RI KI\MSOL\MSOL\bin\Debug\MSOL.pdb
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.CHONGOICHUP.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.FORMS.CHONLEPHUC.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_ALBUM.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_GOICHUP.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_LEPHUC.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.DANGNHAP.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.DANHSACHTAIKHOAN.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.DOANHTHU.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.ALBUM.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.HOADON.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.LEPHUC.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.LIENHE.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.MANHINHCHINH.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.NHANVIEN.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.Properties.Resources.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.THONGTINTAIKHOAN.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.CAIDATGOICHUP.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.XEMHOADONLEPHUC.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.XEMCHITIETALBUM.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.XEMLICHPHANCONG.resources
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.csproj.GenerateResource.Cache
+E:\MI RI KI\MSOL\MSOL\obj\Debug\MSOL.csprojResolveAssemblyReference.cache
+E:\MSOL-20170603T051544Z-001\MSOL\MSOL\bin\Debug\MSOL.exe.config
+E:\MSOL-20170603T051544Z-001\MSOL\MSOL\obj\Debug\MSOL.exe
+E:\MSOL-20170603T051544Z-001\MSOL\MSOL\obj\Debug\MSOL.pdb
+E:\MSOL\MSOL\MSOL\bin\Debug\MSOL.exe.config
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.exe
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.pdb
+E:\MSOL\MSOL\MSOL\bin\Debug\MSOL.exe
+E:\MSOL\MSOL\MSOL\bin\Debug\MSOL.pdb
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.CHONGOICHUP.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.FORMS.CHONLEPHUC.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_ALBUM.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_GOICHUP.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.FORMS.FORM_CTHD_LEPHUC.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.DANGNHAP.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.DANHSACHTAIKHOAN.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.DOANHTHU.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.ALBUM.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.HOADON.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.LEPHUC.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.LIENHE.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.MANHINHCHINH.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.NHANVIEN.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.Properties.Resources.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.THONGTINTAIKHOAN.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.CAIDATGOICHUP.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.XEMHOADONLEPHUC.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.XEMCHITIETALBUM.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.XEMLICHPHANCONG.resources
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.csproj.GenerateResource.Cache
+E:\MSOL\MSOL\MSOL\obj\Debug\MSOL.QUYDINH.resources
+D:\1. STUDY\kì 4\NM CNPM\MSOL\MSOL\bin\Debug\MSOL.exe.config
+D:\1. STUDY\kì 4\NM CNPM\MSOL\MSOL\obj\Debug\MSOL.exe
+D:\1. STUDY\kì 4\NM CNPM\MSOL\MSOL\obj\Debug\MSOL.pdb
